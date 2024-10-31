@@ -41,14 +41,14 @@ public class UsuarioController {
         }catch (Exception ex) {
             throw new RuntimeException(ex);
         }
-        
+
         Usuario usuario = new Usuario();
         usuario.setUsuario(username);
         usuario.setSenha(usuarioService.criptografaSenhaUsuario(senha));
 
         if(usuarioService.verificaUsuario(usuario)){
             SessaoUsuario.setUsuarioLogado(usuario);
-            System.out.println(SessaoUsuario.getUsuarioLogado().getUsuario());
+            System.out.println("Usuário Logado: " + SessaoUsuario.getUsuarioLogado().getUsuario());
         }
 
     }
