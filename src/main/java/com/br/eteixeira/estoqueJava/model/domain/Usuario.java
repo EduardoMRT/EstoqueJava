@@ -13,6 +13,7 @@ public class Usuario {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_usuario")
     private Long idUsuario;
 
     @Column(nullable = false, length = 50)
@@ -22,7 +23,7 @@ public class Usuario {
     private String senha;
 
     @Column(nullable = true, length = 256)
-    private String SenhaTemp;
+    private String senhaTemp;
 
     public Usuario(){
 
