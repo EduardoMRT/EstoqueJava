@@ -1,0 +1,104 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Java e Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.out
+
+# Arquivos de configuração do Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar # Permite incluir o wrapper do Maven no controle de versão
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Configurações e cache do IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+workspace.xml
+.idea/*-modules.xml
+.idea/modules.xml
+.idea/*.name
+.idea/workspace.xml
+.idea/description.xml
+.idea/shelf/
+.idea/codeStyles/
+.idea/vcs.xml
+.idea/libraries
+.idea/jarRepositories.xml
+.idea/dictionaries
+.idea/httpRequests
+.idea/tasks.xml
+.idea/.gitignore
+
+# Configurações de build do IntelliJ IDEA
+*.ipr
+*.iws
+*.iml
+*.class
+.idea/
+out/
+build/
+
+# IntelliJ: Arquivos de configuração de execução
+.idea/runConfigurations/
+.idea/gradle.xml
+.idea/libraries/
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Log e arquivos temporários
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Arquivos gerados do Maven Wrapper
+mvnw
+mvnw.cmd
+
